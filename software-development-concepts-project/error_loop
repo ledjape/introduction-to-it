@@ -1,0 +1,9 @@
+text = ["error", "whatever", "example", "error"]
+pattern = "error"
+
+for pattern in text:
+  if pattern == "error":
+    print ("Found it")
+    count = text.count(pattern)
+    print ("The count of errors in text is: ", count)
+    break
